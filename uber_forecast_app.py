@@ -74,7 +74,7 @@ st.markdown("---")
 
 
 if True:
-    df = pd.read_csv("Uber-Jan-Feb-FOIL.csv")
+    df = pd.read_csv("https://raw.githubusercontent.com/kambojipranav/uber-foil_prediction/main/Uber-Jan-Feb-FOIL.csv")
 
     # Column selection with default fallback
     date_col = "Date" if "Date" in df.columns else df.columns[0]
