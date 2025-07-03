@@ -73,8 +73,8 @@ st.markdown("<h4 style='text-align:center;'>Stylish Time Series Forecast with La
 st.markdown("---")
 
 
-if True:
-    df = pd.read_csv("https://raw.githubusercontent.com/kambojipranav/uber-foil_prediction/main/Uber-Jan-Feb-FOIL.csv")
+if 5>3:
+    df = pd.read_csv("Uber-Jan-Feb-FOIL.csv")
 
     # Column selection with default fallback
     date_col = "Date" if "Date" in df.columns else df.columns[0]
